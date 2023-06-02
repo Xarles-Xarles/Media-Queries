@@ -27,6 +27,19 @@ body h1{
     width: 40%;
 }
 
+h1{
+    border-radius: 20px;
+    background-color: orangered;
+    animation-name: color;
+    animation-duration: 10s;
+}
+
+@keyframes color{
+    0% {background-color: green;}
+    25% {background-color: blue;}
+    50% {background-color: yellow;}
+    100% {background-color: purple;}
+}
 .note-div{
     text-align: center;
     border: 3px double white;
