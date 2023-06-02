@@ -36,6 +36,11 @@ body h1{
     margin: 0 auto;
 }
 
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 480px){
     body h1{
         color: Yellow;
