@@ -28,17 +28,22 @@ body h1{
 }
 
 h1{
+    padding: 5px;
     border-radius: 20px;
     background-color: orangered;
     animation-name: color;
     animation-duration: 10s;
+    width: fit-content;
+    position: relative;
+    animation-delay: 5s;
 }
 
 @keyframes color{
-    0% {background-color: green;}
-    25% {background-color: blue;}
-    50% {background-color: yellow;}
-    100% {background-color: purple;}
+    0% {background-color: green; left:0px; top:0px}
+    25% {background-color: blue; left:200px; top:0px}
+    50% {background-color: yellow; left:200px; top:200px}
+    75% {background-color: purple; left:0px; top:200px}
+    100% {background-color: red; left:0px; top:0px}
 }
 .note-div{
     text-align: center;
