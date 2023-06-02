@@ -27,6 +27,10 @@ body h1{
     width: 40%;
 }
 
+.note-div{
+    text-align: center;
+}
+
 @media screen and (max-width: 480px){
     body h1{
         color: Yellow;
